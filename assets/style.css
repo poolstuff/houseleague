@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/clicks.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+h1, h3 {
+    margin: 0;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 0 tomato, 0 1px tomato, 1px 0 tomato, 0 1px tomato, 5px 5px tomato, 4px 4px tomato, 3px 3px tomato, 3px 3px tomato, 2px 2px tomato, 2px 2px tomato, 2px 2px tomato, 1px 1px tomato;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    margin-top: 24px;
+    font-size: 40px
+}
+
+table {
+    width: 50%;
+}
+
+table,
+th,
+td {
+    border: 0 1px solid black;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+th,
+td,
+a {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding: 6px;
+}
+
+th {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+#links {
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    table {
+        width: 90%;
+    }
+}
